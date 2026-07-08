@@ -20,7 +20,7 @@
                 <a href="services.html" class="hover:text-sage transition">Services</a>
                 <a href="portfolio.html" class="hover:text-sage transition">Portfolio</a>
                 <a href="reviews.html" class="hover:text-sage transition">Reviews</a>
-                <a href="contact.html" class="hover:text-sage transition">Contact</a>
+                <a href="#contact" class="hover:text-sage transition">Contact</a>
             </nav>
             <a href="#contact" class="bg-sage hover:bg-sage-dark text-white text-sm font-medium px-5 py-2.5 rounded-full transition shadow-sm">
                 Get a Free Quote

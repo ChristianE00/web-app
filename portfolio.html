@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & Gallery | Haley’s Cleaning Services</title>
+    <!-- Link to the compiled Tailwind CSS output -->
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-nude-light text-gray-800 font-sans antialiased selection:bg-sage selection:text-white">
+
+    <!-- Navigation -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-nude">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-semibold tracking-tight text-sage-dark">
+                Haley’s <span class="font-light">Cleaning Services</span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                <a href="index.html" class="hover:text-sage transition">Home</a>
+                <a href="services.html" class="hover:text-sage transition">Services</a>
+                <a href="portfolio.html" class="text-sage-dark font-semibold">Portfolio</a>
+                <a href="index.html#reviews" class="hover:text-sage transition">Reviews</a>
+                <a href="index.html#contact" class="hover:text-sage transition">Contact</a>
+            </nav>
+            <a href="index.html#contact" class="bg-sage hover:bg-sage-dark text-white text-sm font-medium px-5 py-2.5 rounded-full transition shadow-sm">
+                Get a Free Quote
+            </a>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="bg-white py-16 border-b border-nude">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-light tracking-tight text-gray-900 mb-4">Our Work</h1>
+            <p class="text-lg text-gray-600 font-light leading-relaxed">
+                A visual showcase of our recent residential and commercial cleaning projects. We let the results speak for themselves.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery Grid -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <!-- Grid Layout -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Gallery Item 1 -->
+                <div class="group relative overflow-hidden rounded-2xl bg-nude shadow-sm border border-nude-dark/30 aspect-square">
+                    <!-- Replace with Haley's actual image path later -->
+                    <div class="absolute inset-0 bg-sage/20 flex items-center justify-center text-sage-dark">
+                        [ Image: Kitchen Deep Clean ]
+                    </div>
+                    <!-- Hover Overlay -->
+                    <div class="absolute inset-0 bg-sage-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-white p-6 text-center">
+                        <h3 class="text-lg font-semibold mb-2">Residential Deep Clean</h3>
+                        <p class="text-sm font-light text-white/90">Full kitchen sanitization and appliance detailing.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="group relative overflow-hidden rounded-2xl bg-nude shadow-sm border border-nude-dark/30 aspect-[4/5]">
+                    <div class="absolute inset-0 bg-sage/20 flex items-center justify-center text-sage-dark">
+                        [ Image: Bathroom Move-Out ]
+                    </div>
+                    <div class="absolute inset-0 bg-sage-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-white p-6 text-center">
+                        <h3 class="text-lg font-semibold mb-2">Move-Out Clean</h3>
+                        <p class="text-sm font-light text-white/90">Intensive tile and grout scrubbing.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="group relative overflow-hidden rounded-2xl bg-nude shadow-sm border border-nude-dark/30 aspect-square">
+                    <div class="absolute inset-0 bg-sage/20 flex items-center justify-center text-sage-dark">
+                        [ Image: Living Room Standard ]
+                    </div>
+                    <div class="absolute inset-0 bg-sage-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-white p-6 text-center">
+                        <h3 class="text-lg font-semibold mb-2">Weekly Routine Clean</h3>
+                        <p class="text-sm font-light text-white/90">Dusting, vacuuming, and surface polishing.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="group relative overflow-hidden rounded-2xl bg-nude shadow-sm border border-nude-dark/30 aspect-[4/5] lg:-mt-12">
+                    <div class="absolute inset-0 bg-sage/20 flex items-center justify-center text-sage-dark">
+                        [ Image: Commercial Office ]
+                    </div>
+                    <div class="absolute inset-0 bg-sage-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-white p-6 text-center">
+                        <h3 class="text-lg font-semibold mb-2">Commercial Space</h3>
+                        <p class="text-sm font-light text-white/90">Office turnover and floor care.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="group relative overflow-hidden rounded-2xl bg-nude shadow-sm border border-nude-dark/30 aspect-square">
+                    <div class="absolute inset-0 bg-sage/20 flex items-center justify-center text-sage-dark">
+                        [ Image: Oven Interior Before/After ]
+                    </div>
+                    <div class="absolute inset-0 bg-sage-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-white p-6 text-center">
+                        <h3 class="text-lg font-semibold mb-2">Appliance Detailing</h3>
+                        <p class="text-sm font-light text-white/90">Specialized oven interior cleaning.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="group relative overflow-hidden rounded-2xl bg-nude shadow-sm border border-nude-dark/30 aspect-[4/5]">
+                    <div class="absolute inset-0 bg-sage/20 flex items-center justify-center text-sage-dark">
+                        [ Image: Bedroom Setup ]
+                    </div>
+                    <div class="absolute inset-0 bg-sage-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center text-white p-6 text-center">
+                        <h3 class="text-lg font-semibold mb-2">Rental Turnover</h3>
+                        <p class="text-sm font-light text-white/90">Bedding and laundry service add-ons.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-sage text-white py-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-light">Like what you see?</h2>
+            <p class="mt-4 text-sage-light max-w-xl mx-auto text-sm font-light leading-relaxed text-white/90">
+                Let's achieve these same spotless results in your space. Reach out today to schedule your first clean.
+            </p>
+            <div class="mt-8">
+                <a href="index.html#contact" class="bg-white text-sage-dark hover:bg-nude-light font-semibold px-8 py-3.5 rounded-full transition inline-block shadow-sm">
+                    Book Your Clean
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-nude-light py-12 border-t border-nude">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-600">
+            <div>
+                <span class="font-semibold text-gray-800">Haley’s Cleaning Services</span>
+                <p class="text-xs text-gray-500 mt-1">Professional residential and commercial cleaning.</p>
+            </div>
+            <div class="flex gap-6 text-xs font-medium">
+                <span>📞 (229) 400-1876</span>
+                <span>✉️ haleyanngreen@yahoo.com</span>
+            </div>
+            <div class="text-xs text-gray-400">
+                &copy; 2026 Haley’s Cleaning Services. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
