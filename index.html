@@ -1,133 +1,97 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haley’s Cleaning Services | A Clean Home. A Happy Home.</title>
-    <!-- Link to the compiled Tailwind CSS output -->
-    <link href="./dist/output.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haley's Cleaning Services</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-[#A3B19B] text-gray-800 font-sans antialiased selection:bg-pink selection:text-white">
 
-    <!-- Navigation -->
-    <header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-pink-light shadow-sm">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-serif italic tracking-tight text-pink-dark">
-                Haley’s <span class="font-sans font-light text-lg text-gray-500 not-italic uppercase tracking-widest ml-1">Cleaning</span>
-            </a>
-            <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
-                <a href="#" class="text-pink-dark font-semibold">Home</a>
-                <a href="services.html" class="hover:text-pink transition">Services</a>
-                <a href="portfolio.html" class="hover:text-pink transition">Portfolio</a>
-                <a href="reviews.html" class="hover:text-pink transition">Reviews</a>
-                <a href="contact.html" class="hover:text-pink transition">Contact</a>
-            </nav>
-            <a href="#contact" class="bg-pink hover:bg-pink-dark text-white text-sm font-medium px-6 py-2.5 rounded-full transition shadow-md shadow-pink/30">
-                Get a Free Quote ✨
-            </a>
-        </div>
-    </header>
+<body class="bg-[#fbf7f0] text-[#2f3328]">
 
-    <!-- Hero Section -->
-     <!--
-    <section class="max-w-6xl mx-auto px-6 py-20 md:py-32 flex flex-col items-center text-center">
-        <span class="bg-sage-light/30 border border-sage-light text-sage-dark text-xs uppercase tracking-widest font-semibold px-5 py-2 rounded-full mb-6 flex items-center gap-2">
-            🌿 Reliable, Trustworthy, Detail Oriented
-        </span>
-        <h1 class="text-4xl md:text-6xl font-light tracking-tight text-gray-900 max-w-3xl leading-tight">
-            A Clean Home. <span class="font-cursive text-[#002040]">A Happy Home. 🤍</span>
-        </h1>
-        <p class="mt-6 text-lg text-gray-600 max-w-xl font-light leading-relaxed">
-            Professional one-time, recurring, deep cleaning, and commercial services tailored to your schedule. We handle the mess so you can enjoy your space.
+  <header class="flex items-center justify-between px-10 py-5 bg-[#fffaf4]">
+    <div>
+      <h1 class="text-3xl italic font-serif">Haley's</h1>
+      <p class="text-[10px] tracking-[0.3em] uppercase">Cleaning Services</p>
+    </div>
+
+    <nav class="hidden md:flex gap-8 text-sm">
+      <a href="#" class="hover:text-[#d98b9a]">Home</a>
+      <a href="#" class="hover:text-[#d98b9a]">Services</a>
+      <a href="#" class="hover:text-[#d98b9a]">Portfolio</a>
+      <a href="#" class="hover:text-[#d98b9a]">Reviews</a>
+      <a href="#" class="hover:text-[#d98b9a]">Contact</a>
+    </nav>
+
+    <a href="#" class="rounded-lg bg-[#d98b9a] px-5 py-3 text-sm text-white">
+      Get a Free Quote
+    </a>
+  </header>
+
+  <section class="grid md:grid-cols-2 items-center gap-10 bg-[#dce4d0] px-10 py-20">
+    <div class="max-w-xl">
+      <h2 class="text-5xl md:text-6xl font-serif leading-tight mb-6">
+        A Cleaner Space.<br />
+        A Calmer You.
+      </h2>
+
+      <p class="text-lg leading-8 mb-8 max-w-md">
+        Reliable, detailed, and stress-free cleaning services for your home or business.
+      </p>
+
+      <a href="#" class="inline-block rounded-lg bg-[#d98b9a] px-6 py-3 text-sm text-white">
+        Get a Free Quote
+      </a>
+    </div>
+
+    <div class="flex justify-center">
+      <img
+        src="./assets/towels.png"
+        alt="Clean towels and plant decor"
+        class="w-full max-w-md rounded-md object-cover"
+      />
+    </div>
+  </section>
+
+  <section class="px-10 py-20 text-center bg-[#fffaf4]">
+    <h2 class="text-3xl font-serif mb-2">
+      Comprehensive Cleaning Solutions
+    </h2>
+
+    <p class="text-sm text-gray-500 mb-14">
+      Designed around your home, office, or business needs.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="px-8 py-6 md:border-r border-[#ddd5c7]">
+        <div class="text-4xl mb-5">🗓️</div>
+        <h3 class="font-semibold mb-3">Recurring Routine Cleans</h3>
+        <p class="text-sm text-gray-600 leading-6">
+          Flexible scheduling options to keep your space consistently pristine and fresh.
         </p>
-        <div class="mt-10 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <a href="#contact" class="bg-pink hover:bg-pink-dark text-white font-medium px-8 py-3.5 rounded-full transition shadow-lg shadow-pink/40 text-center">
-                Request Your Quote 🎀
-            </a>
-            <a href="#services" class="bg-white hover:bg-pink-light text-pink-dark border border-pink-light font-medium px-8 py-3.5 rounded-full transition text-center shadow-sm">
-                Explore Services
-            </a>
-        </div>
-    </section>
-     -->
-    <!-- Example: Adding her business logo or a high-quality cleaning photo right before the text -->
-<img src="./assets/logo.jpg" alt="Haley's Cleaning Services Logo" class="w-128 h-128 rounded-full object-cover mr-auto ml-0 mb-6 shadow-md border-4 border-white">
-    <!-- Core Services Grid -->
-    <section id="services" class="bg-white py-24 border-y border-pink-light">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="text-center max-w-2xl mx-auto mb-16">
-                <h2 class="text-3xl font-light tracking-tight text-gray-900">Comprehensive Cleaning Solutions</h2>
-                <p class="mt-3 text-gray-500 text-sm">Designed around your home, rental, or business needs.</p>
-            </div>
+      </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Service 1 -->
-                <div class="bg-pink-light/40 p-8 rounded-3xl border border-pink-light hover:shadow-xl hover:shadow-pink/10 transition group">
-                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-pink-dark font-bold mb-6 shadow-sm group-hover:scale-110 transition">✨</div>
-                    <h3 class="text-xl font-semibold text-gray-800">Recurring Routine Cleans</h3>
-                    <p class="mt-3 text-gray-600 text-sm leading-relaxed">
-                        Flexible scheduling options including weekly, bi-weekly, or monthly cleaning to maintain a consistently pristine environment.
-                    </p>
-                </div>
+      <div class="px-8 py-6 md:border-r border-[#ddd5c7]">
+        <div class="text-4xl mb-5">✨</div>
+        <h3 class="font-semibold mb-3">Deep & Move-In/Out Cleans</h3>
+        <p class="text-sm text-gray-600 leading-6">
+          Thorough cleaning for a fresh start or special occasion.
+        </p>
+      </div>
 
-                <!-- Service 2 -->
-                <div class="bg-pink-light/40 p-8 rounded-3xl border border-pink-light hover:shadow-xl hover:shadow-pink/10 transition group">
-                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-pink-dark font-bold mb-6 shadow-sm group-hover:scale-110 transition">🧼</div>
-                    <h3 class="text-xl font-semibold text-gray-800">Deep & Move-In/Out Cleans</h3>
-                    <p class="mt-3 text-gray-600 text-sm leading-relaxed">
-                        Intensive top-to-bottom sanitization perfect for revitalizing a space, prepping for new tenants, or clearing out after a move.
-                    </p>
-                </div>
+      <div class="px-8 py-6">
+        <div class="text-4xl mb-5">🏢</div>
+        <h3 class="font-semibold mb-3">Commercial & Rentals</h3>
+        <p class="text-sm text-gray-600 leading-6">
+          Reliable cleaning for offices, rental properties, and commercial spaces.
+        </p>
+      </div>
+    </div>
+  </section>
 
-                <!-- Service 3 -->
-                <div class="bg-pink-light/40 p-8 rounded-3xl border border-pink-light hover:shadow-xl hover:shadow-pink/10 transition group">
-                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-pink-dark font-bold mb-6 shadow-sm group-hover:scale-110 transition">🏡</div>
-                    <h3 class="text-xl font-semibold text-gray-800">Commercial & Rentals</h3>
-                    <p class="mt-3 text-gray-600 text-sm leading-relaxed">
-                        Reliable turnover cleaning for rentals and detailed care for local commercial spaces, ensuring professional first impressions.
-                    </p>
-                </div>
-            </div>
-            <div class="mt-12 text-center">
-                <p class="text-sm text-gray-500">Need laundry services or specialized add-ons? <a href="#contact" class="text-pink-dark underline font-medium hover:text-pink">Let us know in your quote request.</a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Credibility / CTA Banner -->
-    <section class="bg-pink-dark text-white py-20 relative overflow-hidden">
-        <!-- Decorative subtle background circle -->
-        <div class="absolute -top-24 -right-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
-        
-        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
-            <h2 class="text-3xl font-serif italic">Ready to experience a truly clean space? 💕</h2>
-            <p class="mt-4 text-pink-light max-w-xl mx-auto text-sm font-light leading-relaxed text-white/90">
-                Contact us today for a transparent, no-obligation quote tailored specifically to the square footage and demands of your property.
-            </p>
-            <div class="mt-8">
-                <a href="#contact" class="bg-white text-pink-dark hover:bg-pink-light font-semibold px-8 py-3.5 rounded-full transition inline-block shadow-lg">
-                    Get in Touch
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-pink-light/50 py-12 border-t border-pink-light">
-        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-600">
-            <div>
-                <span class="font-semibold text-gray-800 font-serif italic text-lg">Haley’s Cleaning Services</span>
-                <p class="text-xs text-gray-500 mt-1">Professional residential and commercial cleaning.</p>
-            </div>
-            <div class="flex gap-6 text-xs font-medium text-pink-dark">
-                <span class="bg-white px-3 py-1.5 rounded-full shadow-sm">📞 (229) 400-1876</span>
-                <span class="bg-white px-3 py-1.5 rounded-full shadow-sm">✉️ haleyanngreen@yahoo.com</span>
-            </div>
-            <div class="text-xs text-gray-400">
-                &copy; 2026 Haley’s Cleaning Services. All rights reserved.
-            </div>
-        </div>
-    </footer>
+  <footer class="bg-[#6f7d5e] text-white text-center py-5 text-sm tracking-wide">
+    Local. Reliable. Trusted.
+  </footer>
 
 </body>
 </html>
