@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage-light: #93A899;
+  --color-sage: #6B8475;
+  --color-sage-dark: #52665B;
+  --color-nude-light: #FAF7F2;
+  --color-nude: #F0E9DF;
+  --color-nude-dark: #D8CDC0;
+}
+
+/* Set a custom site-wide cursor */
+body {
+  /* Step out of the 'dist' folder with ../ to find the root 'assets' folder */
+  cursor: url('../assets/pointer.png'), auto;
+}
+/* Optional: Keep standard pointer hand on interactive links/buttons */
+a, button {
+  cursor: pointer;
+}
