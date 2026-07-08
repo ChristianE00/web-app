@@ -1,12 +1,18 @@
 @import "tailwindcss";
+@import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 @theme {
-  --color-sage-light: #93A899;
-  --color-sage: #6B8475;
-  --color-sage-dark: #52665B;
-  --color-nude-light: #FAF7F2;
-  --color-nude: #F0E9DF;
-  --color-nude-dark: #D8CDC0;
+/* Pulled from the bucket & script text in image_cc9ce0.jpg */
+       --color-pink-light: #FDF2F4; 
+       --color-pink: #E396A6; 
+       --color-pink-dark: #C46D7F; 
+
+        /* Pulled from the accent leaves in image_cc9ce0.jpg */
+        --color-sage-light: #C4CCBD; 
+	--color-sage: #84937D; 
+	--color-sage-dark: #5A6953;
+  --font-cursive: "Alex Brush", cursive;
 }
 
 /* Set a custom site-wide cursor */
